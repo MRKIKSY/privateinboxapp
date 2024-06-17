@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.use(cors({
-  origin: ["https://datafetchfrontend.onrender.com", "https://zippy-elf-f5f304.netlify.app", "http://localhost:3000"],
+  origin: ["https://datafetchfrontend.onrender.com", "https://zippy-elf-f5f304.netlify.app", "http://localhost:3000","http://localhost:5173"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
